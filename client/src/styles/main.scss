@@ -1,0 +1,36 @@
+.container {
+  max-width: 1368px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.center {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-panel { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.linear-progress {
+  position: absolute !important;
+  width: 100% !important;
+}
+
+.logo {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  border-bottom: 1px solid #c6c6c6;
+  img {
+    max-width: 500px;
+    width: 100%;
+  }
+}
